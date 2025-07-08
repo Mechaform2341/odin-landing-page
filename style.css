@@ -89,25 +89,19 @@ button{
 .info{
     margin-bottom: 70px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 52px;
 }
 
 .text{
-    width: 690px;
+    text-align: center;
     margin: 0 30px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+    max-width: 120px;
 }
 
 .container{
     margin-top: 35px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    max-width: 200px;
 }
 
 .container img{
@@ -123,21 +117,65 @@ button{
     color: #1f2937;
     font-style: italic;
     font-weight: lighter;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
-.quote{
-    margin-top: 150px;
+.new{
+    width: 1000px;
+    gap: 100px;    
+}
+
+.third .author{
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+}
+
+.pre_footer{
+    height: 300px;
+    background-color: #f9faf8;
+}
+
+.fourth{
+    color: #f9faf8;
+}
+
+.sub{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#btn{
+    border-color: #f9faf8;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex-basis: 400px;
 }
 
-.author{
-    font-weight: 600;
-    font-style: normal;
+.sign{
+    height: 130px;
+    width: 1000px;
+    margin: 40px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+}
 
+.pre_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer{
